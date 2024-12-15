@@ -59,3 +59,13 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+
+// "@strapi/plugin-cloud": "5.5.0",
+// "@strapi/plugin-users-permissions": "^5.5.0",
+// "@strapi/strapi": "5.5.0",
+// "better-sqlite3": "11.3.0",
+// "react": "^18.0.0",
+// "react-dom": "^18.0.0",
+// "react-router-dom": "^6.0.0",
+// "styled-components": "^6.0.0"
