@@ -594,13 +594,19 @@ export interface ApiApplicationApplication extends Schema.CollectionType {
       }>;
     users_permissions_user: Attribute.Relation<
       'api::application.application',
-      'manyToOne',
+      'oneToOne',
       'plugin::users-permissions.user'
     >;
     ApplicationID: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
+        };
+      }>;
+    Who_added: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
         };
       }>;
     createdAt: Attribute.DateTime;
@@ -1035,11 +1041,6 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
       'plugin::users-permissions.user',
       'manyToOne',
       'plugin::users-permissions.role'
-    >;
-    applications: Attribute.Relation<
-      'plugin::users-permissions.user',
-      'oneToMany',
-      'api::application.application'
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
