@@ -70,3 +70,8 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 // "react-router-dom": "^6.0.0",
 // "styled-components": "^6.0.0"
 
+
+"engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },

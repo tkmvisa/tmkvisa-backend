@@ -23,10 +23,7 @@
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "engines": {
-    "node": ">=18.0.0 <=22.x.x",
-    "npm": ">=6.0.0"
-  },
+  
   "strapi": {
     "uuid": "7dede36c-f6e0-41ec-a35d-12d31a47dca3"
   }
