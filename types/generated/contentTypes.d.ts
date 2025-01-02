@@ -609,10 +609,10 @@ export interface ApiApplicationApplication extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    Invitation_File: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+    Invitation_File: Attribute.Media<'files'> &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     Appoinment_schedule_file: Attribute.Media<
