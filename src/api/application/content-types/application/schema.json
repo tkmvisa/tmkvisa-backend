@@ -382,6 +382,18 @@
         }
       },
       "type": "string"
+    },
+    "Documents": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
